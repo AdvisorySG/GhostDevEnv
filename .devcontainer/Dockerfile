@@ -14,14 +14,14 @@ RUN apt-get -y install nodejs
 RUN adduser --quiet --shell /bin/zsh --home /home/devuser --gecos "User" devuser 
 RUN echo devuser:root | chpasswd
 RUN usermod -aG sudo devuser 
-RUN chown devuser:devuser /home/devuser
-RUN chmod 775 /home/devuser
+RUN chown -R devuser:devuser /home/devuser
+RUN chmod -R 775 /home/devuser
 
-RUN npm install -g ghost-cli@1.17.3
+RUN npm install -g ghost-cli@latest
 RUN npm install sqlite3 --build-from-source
 RUN npm cache clean --force
 
-WORKDIR /home/devuser
+WORKDIR /home/devuser/ghost
 USER devuser
 
 
