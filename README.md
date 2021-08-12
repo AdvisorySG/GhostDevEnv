@@ -28,11 +28,13 @@ An easier way to setup a development environment for Ghost Themes using Visual C
 
 **How to reopen?**
 
-Simply open `$HOME/GhostDevEnv` in VSCode and follow step (3)
+Simply open `$HOME/GhostDevEnv/ghost` in VSCode and follow step (3)
 
 Alternatively you can click`>File>Save Workspace As` to save a workspace config 
 
-Then run `ghost restart`
+Once you open up the workspace `cd ghost`
+
+Then run `ghost start`
 
 <br/><br/>
 
