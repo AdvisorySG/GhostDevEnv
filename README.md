@@ -2,7 +2,6 @@
 An easier way to setup a development environment for Ghost Themes using Visual Code Devcontainers and Docker
 
 <br/><br/>
-
 **Prerequisites**
 1) Install Docker Desktop and run it for first time setup
 2) Install Visual Studio Code 
