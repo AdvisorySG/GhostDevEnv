@@ -12,7 +12,7 @@ It will also automatically clone the Advisory Theme into the content/theme folde
 5) Setup credentials for Git [[Username and Email]](https://linuxize.com/post/how-to-configure-git-username-and-email/)
 
 <br/><br/>
-#How
+# How
 **How to use?**
 
 1) `git clone https://github.com/AdvisorySG/GhostDevEnv.git $HOME/GhostDevEnv` 
