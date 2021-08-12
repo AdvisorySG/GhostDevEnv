@@ -4,7 +4,7 @@ An easier way to setup a development environment for Ghost Themes using Visual C
 It will also automatically clone the Advisory Theme into the content/theme folder
 
 <br/><br/>
-**Prerequisites**
+# Prerequisites
 1) Install [Docker Desktop](https://www.docker.com/products/docker-desktop) and run it for first time setup
 2) Install [Visual Studio Code](https://code.visualstudio.com/Download) 
 3) Install Extensions [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) and [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) for VSCode
@@ -12,8 +12,7 @@ It will also automatically clone the Advisory Theme into the content/theme folde
 5) Setup credentials for Git [[Username and Email]](https://linuxize.com/post/how-to-configure-git-username-and-email/)
 
 <br/><br/>
-# How
-**How to use?**
+# How to use?
 
 1) `git clone https://github.com/AdvisorySG/GhostDevEnv.git $HOME/GhostDevEnv` 
 
@@ -26,15 +25,15 @@ It will also automatically clone the Advisory Theme into the content/theme folde
 
 <br/><br/>
 
-**How to reopen?**
+# How to reopen?**
 
-Simply open `$HOME/GhostDevEnv` in VSCode and follow step (3) in [[**How to use?**]](#How)
+Simply open `$HOME/GhostDevEnv` in VSCode and follow step (3) in [[**How to use?**]](# How)
 
 Alternatively you can click `>File>Save Workspace As` to save as a workspace config 
 
 <br/><br/>
 
-**My themes are not updating!**
+# My themes are not updating!**
 
 Sometimes Ghost requires a restart to update themes
 
