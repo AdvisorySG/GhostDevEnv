@@ -23,9 +23,15 @@ An easier way to setup a development environment for Ghost Themes using Visual C
 9) `git clone https://github.com/AdvisorySG/ghost-advisory-theme.git` to copy over the Advisory Theme
 10) Go to localhost:2368/ghost [Admin Page] or localhost:2368 [Visitor Page]
 
+**How to reopen?**
+
+Simply open '$HOME/GhostDevEnv' in VSCode and follow step (3)
+Alternatively you can click ">File>Save Workspace As" to save a workspace config 
+
 **My themes are not updating!**
 
 Sometimes Ghost requires a restart to update themes
+
 `ghost restart`
 
 Happy Coding
