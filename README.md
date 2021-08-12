@@ -16,7 +16,7 @@ It will also automatically clone the Advisory Theme into the content/theme folde
 
 1) `git clone https://github.com/AdvisorySG/GhostDevEnv.git $HOME/GhostDevEnv` 
 
-2) `code ~/GhostDevEnv` (Or just open folder [{Home Directory}/GhostDevEnv](${HOME}/GhostDevEnv) in VSCode)
+2) `code ~/GhostDevEnv` (Or just open folder [{Home Directory}/GhostDevEnv] in VSCode)
 
 3) Click on ![Screenshot 2021-08-12 173633](https://user-images.githubusercontent.com/88506363/129174878-1baa1c09-72b6-4556-b06a-86864bac3c52.png) at the bottom left most corner of VSCode and Click [Reopen in container](https://miro.medium.com/max/1400/1*lZ5uJB2m9xSNbhiwHbARkw.png)
 4) Wait for container to build
