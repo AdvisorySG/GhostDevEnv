@@ -3,6 +3,7 @@ An easier way to setup a development environment for Ghost Themes using Visual C
 
 It will also automatically clone the Advisory Theme into the content/theme folder
 
+<br/><br/>
 # **Prerequisites**
 1) Install [Docker Desktop](https://www.docker.com/products/docker-desktop) and run it for first time setup
 2) Install [Visual Studio Code](https://code.visualstudio.com/Download) 
