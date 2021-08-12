@@ -1,7 +1,6 @@
 FROM ubuntu:focal
 LABEL maintainer="DaChiaDev <devchiakk@gmail.com>"
 
-
 RUN apt-get update 
 RUN DEBIAN_FRONTEND="noninteractive" apt-get -y install tzdata
 RUN apt-get install -y sudo curl git-core zsh nano cpp gcc g++ python make build-essential software-properties-common
