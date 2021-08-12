@@ -27,7 +27,7 @@ It will also automatically clone the Advisory Theme into the content/theme folde
 
 **How to reopen?**
 
-Simply open `$HOME/GhostDevEnv/ghost` in VSCode and follow step (3) in **How to use?**
+Simply open `$HOME/GhostDevEnv` in VSCode and follow step (3) in **How to use?**
 
 Alternatively you can click `>File>Save Workspace As` to save as a workspace config 
 
