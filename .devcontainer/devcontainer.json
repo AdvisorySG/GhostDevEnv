@@ -10,7 +10,7 @@
 	},
 
 	"workspaceMount": "source=${localWorkspaceFolder}/ghost,target=/home/devuser/ghost,type=bind,consistency=delegated",
-	"workspaceFolder": "/home/devuser",
+	"workspaceFolder": "/home/devuser/ghost",
 	
 	//"workspaceFolder": "/workspace",
 	// Set *default* container specific settings.json values on container create.
