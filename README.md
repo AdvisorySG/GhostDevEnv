@@ -1,14 +1,14 @@
 # GhostDevEnv
 An easier way to setup a development environment for Ghost Themes using Visual Code Devcontainers and Docker
 
-Prerequisites
+**Prerequisites**
 1) Install Docker Desktop and run it for first time setup
 2) Install Visual Studio Code 
 3) Install Extensions [Docker] and [Remote - Containers] for VSCode
 4) Install Git 
 5) Setup credentials for Git (Username and Email)
 
-How to use? 
+**How to use?**
 
 1) `git clone https://github.com/AdvisorySG/GhostDevEnv.git $HOME/GhostDevEnv` 
 
@@ -23,9 +23,9 @@ How to use?
 9) `git clone https://github.com/AdvisorySG/ghost-advisory-theme.git` to copy over the Advisory Theme
 10) Go to localhost:2368/ghost [Admin Page] or localhost:2368 [Visitor Page]
 
-My themes are not updating!
+**My themes are not updating!**
 
 Sometimes Ghost requires a restart to update themes
-Run `ghost restart`
+`ghost restart`
 
 Happy Coding
