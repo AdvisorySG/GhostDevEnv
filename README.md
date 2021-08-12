@@ -9,7 +9,7 @@ It will also automatically clone the Advisory Theme into the content/theme folde
 2) Install [Visual Studio Code](https://code.visualstudio.com/Download) 
 3) Install Extensions [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) and [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) for VSCode
 4) Install [Git](https://git-scm.com/downloads)
-5) Setup credentials for Git [Username and Email](https://linuxize.com/post/how-to-configure-git-username-and-email/)
+5) Setup credentials for Git [(Username and Email)](https://linuxize.com/post/how-to-configure-git-username-and-email/)
 
 <br/><br/>
 **How to use?**
