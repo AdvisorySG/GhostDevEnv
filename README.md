@@ -7,7 +7,7 @@ An easier way to setup a development environment for Ghost Themes using Visual C
 3) Install Extensions [Docker] and [Remote - Containers] for VSCode
 4) Install Git 
 5) Setup credentials for Git (Username and Email)
-
+<br/><br/>
 **How to use?**
 
 1) `git clone https://github.com/AdvisorySG/GhostDevEnv.git $HOME/GhostDevEnv` 
