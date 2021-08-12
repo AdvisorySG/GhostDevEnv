@@ -21,7 +21,6 @@ RUN npm install -g ghost-cli@latest
 RUN npm install sqlite3 --build-from-source
 RUN npm cache clean --force
 
-WORKDIR /home/devuser/ghost
 USER devuser
 
 
