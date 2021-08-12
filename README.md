@@ -18,11 +18,7 @@ An easier way to setup a development environment for Ghost Themes using Visual C
 3) Click on ![Screenshot 2021-08-12 173633](https://user-images.githubusercontent.com/88506363/129174878-1baa1c09-72b6-4556-b06a-86864bac3c52.png) at the bottom left most corner of VSCode and Click [Reopen in container]
 4) Wait for container to build
 5) Open terminal with Crtl + `
-6) `cd ghost`
-7) `ghost install local`
-8) `cd content/themes`
-9) `git clone https://github.com/AdvisorySG/ghost-advisory-theme.git` to copy over the Advisory Theme
-10) Go to localhost:2368/ghost [Admin Page] or localhost:2368 [Visitor Page]
+6) Go to localhost:2368/ghost [Admin Page] or localhost:2368 [Visitor Page]
 
 <br/><br/>
 
@@ -31,10 +27,6 @@ An easier way to setup a development environment for Ghost Themes using Visual C
 Simply open `$HOME/GhostDevEnv/ghost` in VSCode and follow step (3)
 
 Alternatively you can click`>File>Save Workspace As` to save a workspace config 
-
-Once you open up the workspace `cd ghost`
-
-Then run `ghost start`
 
 <br/><br/>
 
