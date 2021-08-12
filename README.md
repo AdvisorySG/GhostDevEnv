@@ -41,4 +41,4 @@ Sometimes Ghost requires a restart to update themes
 
 <br/><br/>
 
-Happy Coding
+Happy Coding ~Dylan
