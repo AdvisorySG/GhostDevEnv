@@ -21,7 +21,7 @@ It will also automatically clone the Advisory Theme into the content/theme folde
 3) Click on ![Screenshot 2021-08-12 173633](https://user-images.githubusercontent.com/88506363/129174878-1baa1c09-72b6-4556-b06a-86864bac3c52.png) at the bottom left most corner of VSCode and Click [Reopen in container](https://miro.medium.com/max/1400/1*lZ5uJB2m9xSNbhiwHbARkw.png)
 4) Wait for container to build
 5) Open terminal with Crtl + `
-6) Go to localhost:2368/ghost [Admin Page](localhost:2368/ghost) or localhost:2368 [Visitor Page](localhost:2368)
+6) Go to localhost:2368/ghost [[Admin Page]](http://localhost:2368/ghost) or localhost:2368 [Visitor Page](http://localhost:2368)
 
 <br/><br/>
 
