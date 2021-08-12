@@ -9,10 +9,9 @@ Prerequisites
 5) Setup credentials for Git (Username and Email)
 
 How to use? 
-1) `git clone https://github.com/AdvisorySG/GhostDevEnv.git ~/`  (FOR Linux / MacOS)
 
-   `git clone https://github.com/AdvisorySG/GhostDevEnv.git $HOME/GhostDevEnv` (FOR Windows)
-   
+1) `git clone https://github.com/AdvisorySG/GhostDevEnv.git $HOME/GhostDevEnv` 
+
 2) `code ~/GhostDevEnv` (Or just open folder {Home Directory}/GhostDevEnv in VSCode)
 
 3) Click on ![Screenshot 2021-08-12 173633](https://user-images.githubusercontent.com/88506363/129174878-1baa1c09-72b6-4556-b06a-86864bac3c52.png) at the bottom left most corner of VSCode and Click [Reopen in container]
@@ -20,7 +19,12 @@ How to use?
 5) Open terminal with Crtl + `
 6) `cd ghost`
 7) `ghost install local`
-8) `cd /content/themes`
+8) `cd content/themes`
 9) `git clone https://github.com/AdvisorySG/ghost-advisory-theme.git` to copy over the Advisory Theme
+10) Go to localhost:2368/ghost [Admin Page] or localhost:2368 [Visitor Page]
+
+My themes are not updating!
+Sometimes Ghost requires a restart to update themes
+Run `ghost restart`
 
 Happy Coding
