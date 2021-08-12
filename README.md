@@ -10,6 +10,8 @@ Prerequisites
 
 How to use? [ 
 1) git clone https://github.com/AdvisorySG/GhostDevEnv.git ~/  (FOR Linux / MacOS)
+
    git clone https://github.com/AdvisorySG/GhostDevEnv.git $HOME/GhostDevEnv (FOR Windows)
+   
 2) cd ~/GhostDevEnv
 3) code
