@@ -24,6 +24,7 @@ How to use?
 10) Go to localhost:2368/ghost [Admin Page] or localhost:2368 [Visitor Page]
 
 My themes are not updating!
+
 Sometimes Ghost requires a restart to update themes
 Run `ghost restart`
 
