@@ -12,6 +12,7 @@ It will also automatically clone the Advisory Theme into the content/theme folde
 5) Setup credentials for Git [[Username and Email]](https://linuxize.com/post/how-to-configure-git-username-and-email/)
 
 <br/><br/>
+#How
 **How to use?**
 
 1) `git clone https://github.com/AdvisorySG/GhostDevEnv.git $HOME/GhostDevEnv` 
@@ -27,7 +28,7 @@ It will also automatically clone the Advisory Theme into the content/theme folde
 
 **How to reopen?**
 
-Simply open `$HOME/GhostDevEnv` in VSCode and follow step (3) in [**How to use?**]
+Simply open `$HOME/GhostDevEnv` in VSCode and follow step (3) in [[**How to use?**]](#How)
 
 Alternatively you can click `>File>Save Workspace As` to save as a workspace config 
 
