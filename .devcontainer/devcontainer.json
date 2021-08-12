@@ -21,8 +21,11 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [2368],
 
-	// Uncomment the next line to run commands after the container is created - for example installing curl.
-	// "postCreateCommand": "apt-get update && apt-get install -y curl",
+	// Installs ghost development when container is created and clones ghost-advisory-theme into the themes folder.
+	"postCreateCommand": "ghost install local && cd content/themes && git clone https://github.com/AdvisorySG/ghost-advisory-theme.git",
+
+	//Start ghost whenever container starts.
+	"postStartCommand": "ghost start",
 
 	// Uncomment when using a ptrace-based debugger like C++, Go, and Rust
 	// "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
