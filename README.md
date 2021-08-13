@@ -1,5 +1,5 @@
 # GhostDevEnv
-An easier way to setup a development environment for Ghost Themes using Visual Code Devcontainers and Docker
+An easier way to setup a development environment for Ghost Themes using VSCode Devcontainers and Docker
 
 It will also automatically clone the Ghosy-Advisory-Theme into the content/theme folder
 
