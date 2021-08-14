@@ -39,9 +39,9 @@ Startup is complete once `` is shown in terminal
 
 # My themes are not updating!
 
-Sometimes Ghost requires a restart to update themes
+Sometimes Ghost requires a refresh to update themes
 
-`ghost restart`
+`~/refresh.sh`
 
 <br/><br/>
 
