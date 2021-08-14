@@ -1,7 +1,9 @@
 # GhostDevEnv
 An easier way to setup a development environment for Ghost Themes using VSCode Devcontainers and Docker
 
-It will also automatically clone the Ghost-Advisory-Theme into the content/theme folder
+It will also automatically clone the Ghost-Advisory-Theme into the content/theme folder and build it as per "Speedy Development"
+
+A script ~/refresh.sh is provided to restart the Ghost and `npm run dev` instances to update the theme
 
 <br/><br/>
 # **Prerequisites**
