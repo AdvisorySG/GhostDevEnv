@@ -18,13 +18,13 @@ A script ~/refresh.sh is provided to restart the Ghost and `npm run dev` instanc
 
 1) `git clone https://github.com/AdvisorySG/GhostDevEnv.git $HOME/GhostDevEnv` 
 
-2) `code ~/GhostDevEnv` (Or just open folder [{Home Directory}/GhostDevEnv] in VSCode)
+2) `code ~/GhostDevEnv` (Or just open folder `$HOME/GhostDevEnv` in VSCode)
 
 3) Click on ![Screenshot 2021-08-13 011706](https://user-images.githubusercontent.com/88506363/129240239-e9c67e05-31c3-43c1-907b-561cebb86988.png)
  at the bottom left most corner of VSCode and Click [Reopen in container](https://miro.medium.com/max/1400/1*lZ5uJB2m9xSNbhiwHbARkw.png)
 4) Wait for container to build
 5) Open new terminal with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>`</kbd>
-6) Type `~/refresh.sh` to start Ghost and Handlebar listener for Advisory Theme
+6) `~/refresh.sh` to start Ghost and Handlebar listener for Advisory Theme
 7) Go to localhost:2368/ghost [[Admin Page]](http://localhost:2368/ghost) or localhost:2368 [[Visitor Page]](http://localhost:2368)
 
 <br/><br/>
