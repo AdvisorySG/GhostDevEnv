@@ -25,10 +25,10 @@
 	"forwardPorts": [2368],
 
 	// Installs ghost development when container is created and clones ghost-advisory-theme into the themes folder.
-	"postCreateCommand": "ghost install local && cd content/themes && git clone https://github.com/AdvisorySG/ghost-advisory-theme.git && cd ghost-advisory-theme && npm install",
+	"postCreateCommand": "ghost install local && cd content/themes && git clone https://github.com/AdvisorySG/ghost-advisory-theme.git && cd ghost-advisory-theme && npm install && mv ~/ghost/refresh.sh ~/",
 
 	//Start ghost whenever container starts.
-	"postStartCommand": "~/ghost/refresh.sh",
+	"postStartCommand": "~/refresh.sh",
 
 	// Uncomment when using a ptrace-based debugger like C++, Go, and Rust
 	// "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
