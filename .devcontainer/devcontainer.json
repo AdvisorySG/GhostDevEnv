@@ -28,7 +28,7 @@
 	"postCreateCommand": "ghost install local && (cd ~/ && curl -O https://raw.githubusercontent.com/AdvisorySG/refresh/main/refresh.sh && chmod 775 refresh.sh) && cd content/themes && git clone https://github.com/AdvisorySG/ghost-advisory-theme.git && cd ghost-advisory-theme && npm install",
 
 	//Start ghost whenever container starts.
-	"postStartCommand": "~/refresh.sh",
+	//"postStartCommand": "~/refresh.sh",
 
 	// Uncomment when using a ptrace-based debugger like C++, Go, and Rust
 	// "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
