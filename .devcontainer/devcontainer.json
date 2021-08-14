@@ -25,7 +25,7 @@
 	"forwardPorts": [2368],
 
 	// Installs ghost development when container is created and clones ghost-advisory-theme into the themes folder.
-	"postCreateCommand": "ghost install local && cd ~/ && { curl -O https://raw.githubusercontent.com/AdvisorySG/refresh/main/refresh.sh; chmod 775 refresh.sh; cd -; } && cd content/themes && git clone https://github.com/AdvisorySG/ghost-advisory-theme.git && cd ghost-advisory-theme && npm install",
+	"postCreateCommand": "ghost install local && (cd ~/ && curl -O https://raw.githubusercontent.com/AdvisorySG/refresh/main/refresh.sh) && cd content/themes && git clone https://github.com/AdvisorySG/ghost-advisory-theme.git && cd ghost-advisory-theme && npm install",
 
 	//Start ghost whenever container starts.
 	"postStartCommand": "~/refresh.sh",
