@@ -18,7 +18,7 @@ A script ~/refresh.sh is provided to restart the Ghost and `npm run dev` instanc
 
 1) `git clone https://github.com/AdvisorySG/GhostDevEnv.git $HOME/GhostDevEnv` 
 
-2) `code ~/GhostDevEnv` (Or just open folder `$HOME/GhostDevEnv` in VSCode)
+2) `code $HOME/GhostDevEnv` (Or just open folder `$HOME/GhostDevEnv` in VSCode)
 
 3) Click on ![Screenshot 2021-08-13 011706](https://user-images.githubusercontent.com/88506363/129240239-e9c67e05-31c3-43c1-907b-561cebb86988.png)
  at the bottom left most corner of VSCode and Click [Reopen in container](https://miro.medium.com/max/1400/1*lZ5uJB2m9xSNbhiwHbARkw.png)
