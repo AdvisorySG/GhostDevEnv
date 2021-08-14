@@ -21,7 +21,7 @@ It will also automatically clone the Ghosy-Advisory-Theme into the content/theme
 3) Click on ![Screenshot 2021-08-13 011706](https://user-images.githubusercontent.com/88506363/129240239-e9c67e05-31c3-43c1-907b-561cebb86988.png)
  at the bottom left most corner of VSCode and Click [Reopen in container](https://miro.medium.com/max/1400/1*lZ5uJB2m9xSNbhiwHbARkw.png)
 4) Wait for container to build
-5) Container is finished building once `` is shown in terminal
+5) Container is finished building once `Starting 'hbsWatcher'...` is shown in terminal
 6) Open new terminal with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>`</kbd>
 7) Go to localhost:2368/ghost [[Admin Page]](http://localhost:2368/ghost) or localhost:2368 [[Visitor Page]](http://localhost:2368)
 
@@ -33,7 +33,7 @@ Simply open `$HOME/GhostDevEnv` in VSCode and follow step (3) onwards in [**How 
 
 Alternatively you can click `>File>Save Workspace As` to save as a workspace config 
 
-Startup is complete once `` is shown in terminal
+Startup is complete once `Starting 'hbsWatcher'...` is shown in terminal
 
 <br/><br/>
 
@@ -41,7 +41,11 @@ Startup is complete once `` is shown in terminal
 
 Sometimes Ghost requires a refresh to update themes
 
+Go to terminal with `Starting 'hbsWatcher'...` and <kbd>Ctrl</kbd> + <kbd>C</kbd>
+
 `~/refresh.sh`
+
+Open new terminal with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>`</kbd>
 
 <br/><br/>
 
