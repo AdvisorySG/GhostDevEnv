@@ -32,6 +32,7 @@ It will also automatically clone the Ghost-Advisory-Theme into the content/theme
 Simply open `$HOME/GhostDevEnv` in VSCode and follow step (3) onwards in [**How to use?**](#how-to-use)
 
 Alternatively you can click `>File>Save Workspace As` to save as a workspace config 
+
 Open new terminal with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>`</kbd>
 
 `~/refresh.sh`
