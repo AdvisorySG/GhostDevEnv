@@ -1,7 +1,7 @@
 # GhostDevEnv
 An easier way to setup a development environment for Ghost Themes using VSCode Devcontainers and Docker
 
-It will also automatically clone the Ghosy-Advisory-Theme into the content/theme folder
+It will also automatically clone the Ghost-Advisory-Theme into the content/theme folder
 
 <br/><br/>
 # **Prerequisites**
@@ -35,13 +35,15 @@ Alternatively you can click `>File>Save Workspace As` to save as a workspace con
 
 Startup is complete once `Starting 'hbsWatcher'...` is shown in terminal
 
+Open new terminal with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>`</kbd>
+
 <br/><br/>
 
 # My themes are not updating!
 
 Sometimes Ghost requires a refresh to update themes
 
-Go to terminal with `Starting 'hbsWatcher'...` and <kbd>Ctrl</kbd> + <kbd>C</kbd>
+Go to terminal with `Starting 'hbsWatcher'...` and quit with <kbd>Ctrl</kbd> + <kbd>C</kbd>
 
 `~/refresh.sh`
 
