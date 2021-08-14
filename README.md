@@ -7,7 +7,7 @@ It will also automatically clone the Ghost-Advisory-Theme into the content/theme
 # **Prerequisites**
 1) Install [Docker Desktop](https://www.docker.com/products/docker-desktop) and run it for first time setup
 2) Install [Visual Studio Code](https://code.visualstudio.com/Download) 
-3) Install Extension [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers for VSCode
+3) Install Extension [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) for VSCode
 4) Install [Git](https://git-scm.com/downloads)
 5) Setup credentials for Git [[Username and Email]](https://linuxize.com/post/how-to-configure-git-username-and-email/)
 
