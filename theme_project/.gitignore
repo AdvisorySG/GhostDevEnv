@@ -3,3 +3,4 @@
 # Except this file
 !.gitignore 
 !ghost_server
+!ghost-advisory-theme
