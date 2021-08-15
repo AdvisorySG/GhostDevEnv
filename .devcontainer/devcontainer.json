@@ -7,7 +7,7 @@
 		"dockerfile": "Dockerfile",
 	},
 
-	"workspaceMount": "source=${localWorkspaceFolder},target=/home/devuser,type=bind,consistency=delegated",
+	"workspaceMount": "source=${localWorkspaceFolder}/devuser,target=/home/devuser,type=bind,consistency=delegated",
 
 	"workspaceFolder": "/home/devuser",
 	
