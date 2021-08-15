@@ -7,9 +7,9 @@
 		"dockerfile": "Dockerfile",
 	},
 
-	"workspaceMount": "source=${localWorkspaceFolder}/devuser,target=/home/devuser,type=bind,consistency=delegated",
+	"workspaceMount": "source=${localWorkspaceFolder}/ghost,target=/home/devuser/ghost,type=bind,consistency=delegated",
 
-	"workspaceFolder": "/home/devuser",
+	"workspaceFolder": "/home/devuser/ghost",
 	
 	// Set *default* container specific settings.json values on container create.
 
