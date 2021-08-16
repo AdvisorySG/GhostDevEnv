@@ -28,7 +28,7 @@
 	"postCreateCommand": "(mkdir -p ~/theme_project/ghost && cd ~/theme_project/ghost && ghost install local) && (mkdir -p ~/theme_project/scripts && cd ~/theme_project/scripts && git clone https://github.com/AdvisorySG/Scripts.git . && chmod -R 775 ~/theme_project/scripts && export PATH=$PATH:~/theme_project/scripts) && (cd ~/theme_project/ghost/content/themes && git clone https://github.com/AdvisorySG/ghost-advisory-theme.git && ln -s $PWD/ghost-advisory-theme ~/theme_project && cd ghost-advisory-theme && npm install)",
 
 	//Start ghost whenever container starts.
-	"postStartCommand": "printf '\n\n\n\n\n\n\nRun command ~/refresh.sh in a new terminal to start the ghost instance and handlebar listener for Ghost Advisory Theme\n\n\n\n\n\n' ",
+	"postStartCommand": "printf '\n\n\n\nRun command restartghost.sh to (re)start Ghost\n\nRun command refresh.sh to (re)start Ghost Theme listener (same as npm run dev) \n\n\n\n\n\n' ",
 
 	// Uncomment when using a ptrace-based debugger like C++, Go, and Rust
 	// "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
