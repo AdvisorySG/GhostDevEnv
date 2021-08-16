@@ -3,7 +3,7 @@ LABEL maintainer="DaChiaDev <88506363+DaDevChia@users.noreply.github.com>"
 
 #Installs basic commands and buildtools for sqlite3
 RUN apt-get update
-RUN apt-get install -y sudo 
+RUN apt-get install -y sudo nano
 
 #Adds user devuser under sudo group and creates working directory
 RUN adduser --quiet --shell /bin/bash --home /home/devuser --gecos "User" devuser 
