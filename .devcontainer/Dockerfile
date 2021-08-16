@@ -15,7 +15,6 @@ RUN chmod -R 775 /home/devuser
 
 #Installs ghost-cli and sqlite3 from source
 RUN npm install -g ghost-cli@latest
-RUN npm install sqlite3 --build-from-source
 
 
 
