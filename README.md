@@ -55,6 +55,15 @@ Open new terminal with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>`</kbd>
 
 `themerefresh`
 
+<br/><br/>
+# My theme is not detected!
+
+Restart Ghost to detect themes
+
+Open new terminal with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>`</kbd>
+
+`ghostrestart`
+
 
 <br/><br/>
 
