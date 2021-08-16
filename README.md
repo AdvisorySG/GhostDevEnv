@@ -3,7 +3,7 @@ An easier way to setup a development environment for Ghost Themes using VSCode D
 
 It will also automatically clone the Ghost-Advisory-Theme into the content/theme folder and build it as per "Speedy Development"
 
-A script ~/refresh.sh is provided to restart the Ghost and `npm run dev` instances to update the theme
+Scripts are provided to restart Ghost and `npm run dev` instances 
 
 <br/><br/>
 # **Prerequisites**
@@ -24,11 +24,17 @@ A script ~/refresh.sh is provided to restart the Ghost and `npm run dev` instanc
  at the bottom left most corner of VSCode and Click [Reopen in container](https://miro.medium.com/max/1400/1*lZ5uJB2m9xSNbhiwHbARkw.png)
 4) Wait for container to build
 5) Open new terminal with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>`</kbd>
-6) `~/refresh.sh` to start Ghost and Handlebar listener for Advisory Theme
-7) Go to localhost:2368/ghost [[Admin Page]](http://localhost:2368/ghost) or localhost:2368 [[Visitor Page]](http://localhost:2368)
+6) Go to localhost:2368/ghost [Admin Page](http://localhost:2368/ghost) or localhost:2368 [Visitor Page](http://localhost:2368)
+7) Follow [**Commands**](#commands)
 
 <br/><br/>
 
+# Commands
+Run command `ghostrestart` to (re)Start Ghost
+
+Run command `themerefresh` to (re)Start Ghost Theme listener (same as npm run dev in Theme folder) 
+
+<br/><br/>
 # How to reopen?
 
 Simply open `$HOME/GhostDevEnv` in VSCode and follow step (3) onwards in [**How to use?**](#how-to-use)
@@ -37,17 +43,17 @@ Alternatively you can click `>File>Save Workspace As` to save as a workspace con
 
 Open new terminal with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>`</kbd>
 
-`~/refresh.sh`
+Follow [**Commands**](#commands)
 
 <br/><br/>
 
 # My themes are not updating!
 
-Sometimes Ghost requires a refresh to update themes
+Refresh `npm run dev` to update themes
 
 Open new terminal with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>`</kbd>
 
-`~/refresh.sh`
+`themerefresh`
 
 
 <br/><br/>
