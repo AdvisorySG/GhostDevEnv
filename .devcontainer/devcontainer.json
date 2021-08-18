@@ -17,12 +17,12 @@
 	
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"dbaeumer.vscode-eslint",
-		"github.vscode-pull-request-github"
+		"github.vscode-pull-request-github",
+		"bradlc.vscode-tailwindcss"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [2368],
+	//"forwardPorts": [2368],
 
 	// Installs ghost development when container is created and clones ghost-advisory-theme into the themes folder.
 	"postCreateCommand": "(mkdir -p ~/theme_project/ghost && cd ~/theme_project/ghost && ghost install local) && (mkdir -p ~/theme_project/scripts && cd ~/theme_project/scripts && git clone https://github.com/AdvisorySG/Scripts.git . && chmod -R 775 ~/theme_project/scripts && echo 'PATH='${PATH:+${PATH}:}~/theme_project/scripts'' >> ~/.bashrc) && (cd ~/theme_project && git clone https://github.com/AdvisorySG/ghost-advisory-theme.git && ln -s $PWD/ghost-advisory-theme ~/theme_project/ghost/content/themes && cd ghost-advisory-theme && npm install)",
