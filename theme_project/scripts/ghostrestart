@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd ~/theme_project/ghost
+ghost restart

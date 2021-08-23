@@ -1,0 +1,6 @@
+#!/bin/bash
+
+pkill npm
+pkill gulp
+cd -P ~/theme_project/ghost-advisory-theme
+npm run dev
