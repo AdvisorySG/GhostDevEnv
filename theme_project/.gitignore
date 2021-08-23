@@ -1,8 +1,6 @@
-**
+
 !/.gitignore
 
 ###############################
 # Un-ignore the affected subdirectory
 !/scripts/
-# Ignore subdirectory and all including directories and files to match pattern as valid for the next pattern
-/scripts/**
