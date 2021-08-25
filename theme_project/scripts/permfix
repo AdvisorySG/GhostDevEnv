@@ -1,0 +1,4 @@
+#!/bin/bash
+
+chmod -R 775 ~/theme_project/scripts
+echo 'PATH='${PATH:+${PATH}:}~/theme_project/scripts'' >> ~/.bashrc
