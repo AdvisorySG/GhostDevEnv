@@ -3,7 +3,7 @@ An easier way to setup a development environment for Ghost Themes using VSCode D
 
 It will also automatically clone the Ghost-Advisory-Theme into the content/theme folder and build it as per "Speedy Development"
 
-Scripts are provided to restart Ghost and `npm run dev` instances 
+Scripts are provided to restart Ghost (ghostrestart) and restart the Tailwind JIT Theme Builder (themerefresh) 
 
 <br/><br/>
 # **Prerequisites**
@@ -49,7 +49,7 @@ Follow [**Commands**](#commands)
 
 # My themes are not updating!
 
-Refresh `npm run dev` to update themes
+Refresh Tailwind JIT Builder to update CSS in themes
 
 Open new terminal with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>`</kbd>
 
